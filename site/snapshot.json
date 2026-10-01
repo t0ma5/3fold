@@ -1,6 +1,6 @@
 {
   "snapshotLabel": "1 Oct 2026",
-  "snapshotDetail": "1 October 2026, 11:25 UTC. Stellar holders from stellar.expert. Vault balances from Horizon. TFChain System.Account at block 24,976,223. BSC balances from the BEP-20 contract.",
+  "snapshotDetail": "1 October 2026, 11:31 UTC. Stellar holders from stellar.expert. Vault balances from Horizon. TFChain System.Account at block 24,976,282. BSC balances from the BEP-20 contract.",
   "pauseNote": "Weekly refresh runs on GitHub Actions, Mondays at 06:00 UTC.",
   "asset": "TFT",
   "issuer": "GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47",
@@ -140,7 +140,7 @@
   },
   "tfchain": {
     "title": "TFChain top 10",
-    "lede": "System.Account free plus reserved at block 24,976,223. Share is of TFChain issuance, 242,630,409.03 TFT, not of the Stellar issuer supply. Ranks 1–10 hold 97.75%. The largest account is a twin with no farm and no active node contract, so the concentration is a wallet fact, not a biggest-farmer fact.",
+    "lede": "System.Account free plus reserved at block 24,976,282. Share is of TFChain issuance, 242,630,409.03 TFT, not of the Stellar issuer supply. Ranks 1–10 hold 97.75%. The largest account is a twin with no farm and no active node contract, so the concentration is a wallet fact, not a biggest-farmer fact.",
     "rows": [
       {
         "rank": 1,
@@ -169,7 +169,7 @@
       {
         "rank": 4,
         "account": "5DCaGQfz2PH35EMJTHFMjc6Tk5SkqhjekVvrycY5M5xiYzis",
-        "tft": "3,658,181.07",
+        "tft": "3,658,221.79",
         "share": "1.51%",
         "name": "Foundation account",
         "note": "Pricing-policy foundationAccount. No twin."
@@ -193,7 +193,7 @@
       {
         "rank": 7,
         "account": "5CNposRewardAccount11111111111111111111111111FSU",
-        "tft": "1,099,341.20",
+        "tft": "1,099,351.39",
         "share": "0.45%",
         "name": "Reward account",
         "note": "Pallet-style account (the name is in the address). No twin. No NPoS pallet in the current runtime."
@@ -337,7 +337,7 @@
       },
       {
         "title": "TFChain System.Account",
-        "body": "https://tfchain.grid.tf (Tfchain Mainnet, tokenDecimals 7). Live balances are System.Account data.free and data.reserved. Balances.Account is the wrong map and returns zero even for a funded account. At block 24,976,223, 54,431 accounts summed to 242,630,409.03 TFT, matching Balances.TotalIssuance."
+        "body": "https://tfchain.grid.tf (Tfchain Mainnet, tokenDecimals 7). Live balances are System.Account data.free and data.reserved. Balances.Account is the wrong map and returns zero even for a funded account. At block 24,976,282, 54,431 accounts summed to 242,630,409.03 TFT, matching Balances.TotalIssuance."
       },
       {
         "title": "Stellar issuer supply",
