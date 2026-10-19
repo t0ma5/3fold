@@ -1,6 +1,6 @@
 {
-  "snapshotLabel": "12 Oct 2026",
-  "snapshotDetail": "12 October 2026, 15:02 UTC. Stellar holders from stellar.expert. Vault balances from Horizon. TFChain System.Account at block 25,136,768. BSC balances from the BEP-20 contract.",
+  "snapshotLabel": "19 Oct 2026",
+  "snapshotDetail": "19 October 2026, 12:45 UTC. Stellar holders from stellar.expert. Vault balances from Horizon. TFChain System.Account at block 25,236,199. BSC balances from the BEP-20 contract.",
   "pauseNote": "Weekly refresh runs on GitHub Actions, Mondays at 06:00 UTC.",
   "asset": "TFT",
   "issuer": "GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47",
@@ -11,14 +11,14 @@
     "rows": [
       {
         "place": "Stellar wallets outside the 3 known vaults",
-        "tft": "670,645,499.59",
-        "usd": "67,064,549.96",
+        "tft": "668,779,582.16",
+        "usd": "66,877,958.22",
         "detail": "At the 1-cent SPORE label. This is issuer TFT that is not in the TFChain, BSC, or Ethereum vaults."
       },
       {
         "place": "TFChain holders",
-        "tft": "256,714,110.47",
-        "usd": "25,671,411.05",
+        "tft": "257,040,471.88",
+        "usd": "25,704,047.19",
         "address": "GBNOTAYUMXVO5QDYWYO2SOCOYIJ3XFIP65GKOQN7H65ZZSO6BK4SLWSC",
         "detail": "TFChain issuance from System.Account. Vault GBNOTAYUMXVO5QDYWYO2SOCOYIJ3XFIP65GKOQN7H65ZZSO6BK4SLWSC is the freeze."
       },
@@ -31,17 +31,17 @@
       },
       {
         "place": "BSC vault",
-        "tft": "50,048,433.39",
-        "usd": "5,004,843.34",
+        "tft": "51,368,777.41",
+        "usd": "5,136,877.74",
         "address": "GBFFWXWBZDILJJAMSINHPJEUJKB3H4UYXRWNB4COYQAF7UUQSWSBUXW5",
         "detail": "Stellar freeze for the BSC bridge. Already inside the issuer supply."
       },
       {
         "place": "Ethereum vault",
-        "tft": "5,467,138.95",
-        "usd": "546,713.89",
+        "tft": "5,686,350.95",
+        "usd": "568,635.09",
         "address": "GARQ6KUXUCKDPIGI7NPITDN55J23SVR5RJ5RFOOU3ZPLMRJYOQRNMOIJ",
-        "detail": "Horizon TFT balance 5467138.9468897, outside the Stellar top 10. Already inside the issuer supply."
+        "detail": "Horizon TFT balance 5686350.9468897, outside the Stellar top 10. Already inside the issuer supply."
       }
     ],
     "total": {
@@ -54,13 +54,13 @@
   },
   "stellar": {
     "title": "Stellar top 10",
-    "lede": "stellar.expert holder ranking for TFT issued by GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47. Top 10 are 64.34% of the indexed supply. Horizon matched ranks 2–10. A name is used only when an official doc or the live bridge app names that address. Everyone else stays “No public match”. A home_domain the domain’s stellar.toml does not list is not a name.",
+    "lede": "stellar.expert holder ranking for TFT issued by GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47. Top 10 are 64.50% of the indexed supply. Horizon matched ranks 2–10. A name is used only when an official doc or the live bridge app names that address. Everyone else stays “No public match”. A home_domain the domain’s stellar.toml does not list is not a name.",
     "rows": [
       {
         "rank": 1,
         "account": "GBNOTAYUMXVO5QDYWYO2SOCOYIJ3XFIP65GKOQN7H65ZZSO6BK4SLWSC",
-        "tft": "256,716,313.47",
-        "share": "26.12%",
+        "tft": "257,042,674.88",
+        "share": "26.15%",
         "name": "TFChain bridge vault",
         "note": "Named in the ledger_chain bridge README. Horizon balance matches this row."
       },
@@ -75,8 +75,8 @@
       {
         "rank": 3,
         "account": "GBFFWXWBZDILJJAMSINHPJEUJKB3H4UYXRWNB4COYQAF7UUQSWSBUXW5",
-        "tft": "50,048,433.39",
-        "share": "5.09%",
+        "tft": "51,368,777.41",
+        "share": "5.23%",
         "name": "BSC bridge vault",
         "note": "The bridge vault, secured as a 3-of-4 Solar-style multisig. SatoshiPay Solar is the software, not the owner. Named as the deposit account in the live app at bridge.bsc.threefold.io."
       },
@@ -140,20 +140,20 @@
   },
   "tfchain": {
     "title": "TFChain top 10",
-    "lede": "System.Account free plus reserved at block 25,136,768. Share is of TFChain issuance, 256,714,110.47 TFT, not of the Stellar issuer supply. Ranks 1–10 hold 97.89%. The largest account is a twin with no farm and no active node contract, so the concentration is a wallet fact, not a biggest-farmer fact.",
+    "lede": "System.Account free plus reserved at block 25,236,199. Share is of TFChain issuance, 257,040,471.88 TFT, not of the Stellar issuer supply. Ranks 1–10 hold 97.79%. The largest account is a twin with no farm and no active node contract, so the concentration is a wallet fact, not a biggest-farmer fact.",
     "rows": [
       {
         "rank": 1,
         "account": "5Dntq1FcFEkD2KHTgbWP9waw1e5kP8S2gLtwxy5nD48J8jaJ",
-        "tft": "224,120,556.28",
-        "share": "87.30%",
+        "tft": "224,124,505.42",
+        "share": "87.19%",
         "name": "Twin 15548",
         "note": "No farm, no active node contract."
       },
       {
         "rank": 2,
         "account": "5HWZcHCTQPKZrZqjN9BcyBunUCjGZE1X7zi9Rg8iCkmV3kG8",
-        "tft": "8,034,152.01",
+        "tft": "8,033,814.53",
         "share": "3.13%",
         "name": "Twin 806",
         "note": "Farms jvfarm01 (244), jvfarmtest01 (3005), farm_L1 (3077). 120 nodes. 56 active contracts as customer. Includes 37.75 TFT reserved."
@@ -162,15 +162,15 @@
         "rank": 3,
         "account": "5DHyAksaJiN91Bt3jQUnM6LSB1A58Sv9cFXChFF8BuE7mw4z",
         "tft": "7,000,100.10",
-        "share": "2.73%",
+        "share": "2.72%",
         "name": "Twin 15992",
         "note": "No farm. Executed bridge mints to this address total 7,000,102.00 TFT."
       },
       {
         "rank": 4,
         "account": "5DCaGQfz2PH35EMJTHFMjc6Tk5SkqhjekVvrycY5M5xiYzis",
-        "tft": "3,713,772.76",
-        "share": "1.45%",
+        "tft": "3,752,585.10",
+        "share": "1.46%",
         "name": "Foundation account",
         "note": "Pricing-policy foundationAccount. No twin."
       },
@@ -193,16 +193,16 @@
       {
         "rank": 7,
         "account": "5CNposRewardAccount11111111111111111111111111FSU",
-        "tft": "1,113,204.07",
-        "share": "0.43%",
+        "tft": "1,122,884.37",
+        "share": "0.44%",
         "name": "Reward account",
         "note": "Pallet-style account (the name is in the address). No twin. No NPoS pallet in the current runtime."
       },
       {
         "rank": 8,
         "account": "5EFH3jsZyriLXZ13GtyeBPKoaEUvBYpnpvaMgk9bZ9JPfFvJ",
-        "tft": "926,802.09",
-        "share": "0.36%",
+        "tft": "943,392.12",
+        "share": "0.37%",
         "name": "Twin 2",
         "note": "Freefarm, Silverfarm, LiriaFarm. 120 nodes."
       },
@@ -227,13 +227,13 @@
   "bsc": {
     "title": "BSC top holders",
     "explorer": "https://bscscan.com/address/",
-    "lede": "BEP-20 TFT at 0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf. Contract total supply 50,399,479.12 TFT (7 decimals), read 12 Oct 2026. Each balance below was read from that contract, then sorted. Links open BscScan. One explorer row between the 4.65M wallet and the PancakeSwap pool did not match the contract, so it is left out. This is the wrapped chain, the same TFT frozen in the Stellar BSC vault, not a second supply.",
+    "lede": "BEP-20 TFT at 0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf. Contract total supply 51,719,823.14 TFT (7 decimals), read 19 Oct 2026. Each balance below was read from that contract, then sorted. Links open BscScan. One explorer row between the 4.65M wallet and the PancakeSwap pool did not match the contract, so it is left out. This is the wrapped chain, the same TFT frozen in the Stellar BSC vault, not a second supply.",
     "rows": [
       {
         "rank": 1,
         "account": "0x66803c0b34b1baccb68ff515f76cd63ba48a2039",
         "tft": "5,723,999.58",
-        "share": "11.36%",
+        "share": "11.07%",
         "name": "No public match",
         "note": ""
       },
@@ -241,15 +241,15 @@
         "rank": 2,
         "account": "0x75dfeaba20eff38d6252578ce1c9d45323380bb3",
         "tft": "4,652,477.00",
-        "share": "9.23%",
+        "share": "9.00%",
         "name": "No public match",
         "note": ""
       },
       {
         "rank": 3,
         "account": "0x4a2dbaa979a3f4cfb8004ea5743faf159dd2665a",
-        "tft": "2,589,124.45",
-        "share": "5.14%",
+        "tft": "2,769,509.76",
+        "share": "5.35%",
         "name": "PancakeSwap V2",
         "note": "Pool contract. GoPlus tags this address PancakeV2."
       },
@@ -257,7 +257,7 @@
         "rank": 4,
         "account": "0xa4d540376c1edcc7d659e5b2abaf52adaa3d4013",
         "tft": "2,058,078.00",
-        "share": "4.08%",
+        "share": "3.98%",
         "name": "No public match",
         "note": ""
       },
@@ -265,7 +265,7 @@
         "rank": 5,
         "account": "0xd2938e7c9fe3597f78832ce780feb61945c377d7",
         "tft": "1,891,891.77",
-        "share": "3.75%",
+        "share": "3.66%",
         "name": "Contract",
         "note": "Contract account. No public name."
       },
@@ -273,7 +273,7 @@
         "rank": 6,
         "account": "0x5eac4a9c2fb481e016a526b4fc3aa8205f72ddb9",
         "tft": "1,421,002.25",
-        "share": "2.82%",
+        "share": "2.75%",
         "name": "No public match",
         "note": ""
       },
@@ -281,7 +281,7 @@
         "rank": 7,
         "account": "0x10d376E2358363F8EaD8582f2Cbf061ba638ecBF",
         "tft": "1,314,092.02",
-        "share": "2.61%",
+        "share": "2.54%",
         "name": "No public match",
         "note": ""
       },
@@ -289,7 +289,7 @@
         "rank": 8,
         "account": "0x0C2a64Bf2fb0851fF340Ddbe8d5FDcd5769Ee424",
         "tft": "1,083,692.19",
-        "share": "2.15%",
+        "share": "2.10%",
         "name": "No public match",
         "note": ""
       },
@@ -297,7 +297,7 @@
         "rank": 9,
         "account": "0xf9c8aa97a28a7a846b63d8663ebe3dbc05036aea",
         "tft": "1,000,000.00",
-        "share": "1.98%",
+        "share": "1.93%",
         "name": "No public match",
         "note": ""
       }
@@ -337,7 +337,7 @@
       },
       {
         "title": "TFChain System.Account",
-        "body": "https://tfchain.grid.tf (Tfchain Mainnet, tokenDecimals 7). Live balances are System.Account data.free and data.reserved. Balances.Account is the wrong map and returns zero even for a funded account. At block 25,136,768, 54,448 accounts summed to 256,714,110.47 TFT, matching Balances.TotalIssuance."
+        "body": "https://tfchain.grid.tf (Tfchain Mainnet, tokenDecimals 7). Live balances are System.Account data.free and data.reserved. Balances.Account is the wrong map and returns zero even for a funded account. At block 25,236,199, 54,465 accounts summed to 257,040,471.88 TFT, matching Balances.TotalIssuance."
       },
       {
         "title": "Stellar issuer supply",
