@@ -1,6 +1,6 @@
 {
-  "snapshotLabel": "26 Oct 2026",
-  "snapshotDetail": "26 October 2026, 12:38 UTC. Stellar holders from stellar.expert. Vault balances from Horizon. TFChain System.Account at block 25,336,927. BSC balances from the BEP-20 contract.",
+  "snapshotLabel": "2 Nov 2026",
+  "snapshotDetail": "2 November 2026, 15:21 UTC. Stellar holders from stellar.expert. Vault balances from Horizon. TFChain System.Account at block 25,438,848. BSC balances from the BEP-20 contract.",
   "pauseNote": "Weekly refresh runs on GitHub Actions, Mondays at 06:00 UTC.",
   "asset": "TFT",
   "issuer": "GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47",
@@ -11,14 +11,14 @@
     "rows": [
       {
         "place": "Stellar wallets outside the 3 known vaults",
-        "tft": "668,003,490.70",
-        "usd": "66,800,349.07",
+        "tft": "665,614,174.10",
+        "usd": "66,561,417.41",
         "detail": "At the 1-cent SPORE label. This is issuer TFT that is not in the TFChain, BSC, or Ethereum vaults."
       },
       {
         "place": "TFChain holders",
-        "tft": "257,253,058.34",
-        "usd": "25,725,305.83",
+        "tft": "259,699,434.95",
+        "usd": "25,969,943.50",
         "address": "GBNOTAYUMXVO5QDYWYO2SOCOYIJ3XFIP65GKOQN7H65ZZSO6BK4SLWSC",
         "detail": "TFChain issuance from System.Account. Vault GBNOTAYUMXVO5QDYWYO2SOCOYIJ3XFIP65GKOQN7H65ZZSO6BK4SLWSC is the freeze."
       },
@@ -31,36 +31,36 @@
       },
       {
         "place": "BSC vault",
-        "tft": "51,346,240.41",
-        "usd": "5,134,624.04",
+        "tft": "51,177,462.41",
+        "usd": "5,117,746.24",
         "address": "GBFFWXWBZDILJJAMSINHPJEUJKB3H4UYXRWNB4COYQAF7UUQSWSBUXW5",
         "detail": "Stellar freeze for the BSC bridge. Already inside the issuer supply."
       },
       {
         "place": "Ethereum vault",
-        "tft": "6,272,392.95",
-        "usd": "627,239.29",
+        "tft": "6,384,110.95",
+        "usd": "638,411.09",
         "address": "GARQ6KUXUCKDPIGI7NPITDN55J23SVR5RJ5RFOOU3ZPLMRJYOQRNMOIJ",
-        "detail": "Horizon TFT balance 6272392.9468897, outside the Stellar top 10. Already inside the issuer supply."
+        "detail": "Horizon TFT balance 6384110.9468897, outside the Stellar top 10. Already inside the issuer supply."
       }
     ],
     "total": {
-      "tft": "982,877,385.41",
-      "sporeIfSwapped": "9,828,773,854.1",
+      "tft": "982,877,385.40",
+      "sporeIfSwapped": "9,828,773,854.0",
       "usdLabeled": "98,287,738.54",
-      "rowCentsUsd": "98,287,738.53",
+      "rowCentsUsd": "98,287,738.54",
       "exactProductUsd": "98,287,738.54"
     }
   },
   "stellar": {
     "title": "Stellar top 10",
-    "lede": "stellar.expert holder ranking for TFT issued by GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47. Top 10 are 64.52% of the indexed supply. Horizon matched ranks 2–10. A name is used only when an official doc or the live bridge app names that address. Everyone else stays “No public match”. A home_domain the domain’s stellar.toml does not list is not a name.",
+    "lede": "stellar.expert holder ranking for TFT issued by GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47. Top 10 are 64.75% of the indexed supply. Horizon matched ranks 2–10. A name is used only when an official doc or the live bridge app names that address. Everyone else stays “No public match”. A home_domain the domain’s stellar.toml does not list is not a name.",
     "rows": [
       {
         "rank": 1,
         "account": "GBNOTAYUMXVO5QDYWYO2SOCOYIJ3XFIP65GKOQN7H65ZZSO6BK4SLWSC",
-        "tft": "257,255,261.34",
-        "share": "26.17%",
+        "tft": "259,701,637.95",
+        "share": "26.42%",
         "name": "TFChain bridge vault",
         "note": "Named in the ledger_chain bridge README. Horizon balance matches this row."
       },
@@ -75,8 +75,8 @@
       {
         "rank": 3,
         "account": "GBFFWXWBZDILJJAMSINHPJEUJKB3H4UYXRWNB4COYQAF7UUQSWSBUXW5",
-        "tft": "51,346,240.41",
-        "share": "5.22%",
+        "tft": "51,177,462.41",
+        "share": "5.21%",
         "name": "BSC bridge vault",
         "note": "The bridge vault, secured as a 3-of-4 Solar-style multisig. SatoshiPay Solar is the software, not the owner. Named as the deposit account in the live app at bridge.bsc.threefold.io."
       },
@@ -140,21 +140,21 @@
   },
   "tfchain": {
     "title": "TFChain top 10",
-    "lede": "System.Account free plus reserved at block 25,336,927. Share is of TFChain issuance, 257,253,058.34 TFT, not of the Stellar issuer supply. Ranks 1–10 hold 97.79%. The largest account is a twin with no farm and no active node contract, so the concentration is a wallet fact, not a biggest-farmer fact.",
+    "lede": "System.Account free plus reserved at block 25,438,848. Share is of TFChain issuance, 259,699,434.95 TFT, not of the Stellar issuer supply. Ranks 1–10 hold 97.79%. The largest account is a twin with no farm and no active node contract, so the concentration is a wallet fact, not a biggest-farmer fact.",
     "rows": [
       {
         "rank": 1,
         "account": "5Dntq1FcFEkD2KHTgbWP9waw1e5kP8S2gLtwxy5nD48J8jaJ",
-        "tft": "224,256,268.21",
-        "share": "87.17%",
+        "tft": "226,577,866.21",
+        "share": "87.25%",
         "name": "Twin 15548",
         "note": "No farm, no active node contract."
       },
       {
         "rank": 2,
         "account": "5HWZcHCTQPKZrZqjN9BcyBunUCjGZE1X7zi9Rg8iCkmV3kG8",
-        "tft": "8,033,462.25",
-        "share": "3.12%",
+        "tft": "8,033,114.49",
+        "share": "3.09%",
         "name": "Twin 806",
         "note": "Farms jvfarm01 (244), jvfarmtest01 (3005), farm_L1 (3077). 120 nodes. 56 active contracts as customer. Includes 37.75 TFT reserved."
       },
@@ -162,15 +162,15 @@
         "rank": 3,
         "account": "5DHyAksaJiN91Bt3jQUnM6LSB1A58Sv9cFXChFF8BuE7mw4z",
         "tft": "7,000,100.10",
-        "share": "2.72%",
+        "share": "2.70%",
         "name": "Twin 15992",
         "note": "No farm. Executed bridge mints to this address total 7,000,102.00 TFT."
       },
       {
         "rank": 4,
         "account": "5DCaGQfz2PH35EMJTHFMjc6Tk5SkqhjekVvrycY5M5xiYzis",
-        "tft": "3,791,329.77",
-        "share": "1.47%",
+        "tft": "3,833,748.95",
+        "share": "1.48%",
         "name": "Foundation account",
         "note": "Pricing-policy foundationAccount. No twin."
       },
@@ -178,7 +178,7 @@
         "rank": 5,
         "account": "5Dd6adUJH8wvqb9SPC96JdZ85nK1671MeMSxkPZ6Q7rE4byc",
         "tft": "2,757,012.16",
-        "share": "1.07%",
+        "share": "1.06%",
         "name": "Certified sales account",
         "note": "Pricing-policy certifiedSalesAccount. No twin."
       },
@@ -186,14 +186,14 @@
         "rank": 6,
         "account": "5FvNFfYCgJrCZGRMnmkebuiGUE2BAdNdVj9an6o5Pafhzjm8",
         "tft": "2,000,000.10",
-        "share": "0.78%",
+        "share": "0.77%",
         "name": "Twin 16015",
         "note": "No farm."
       },
       {
         "rank": 7,
         "account": "5CNposRewardAccount11111111111111111111111111FSU",
-        "tft": "1,132,545.66",
+        "tft": "1,143,123.62",
         "share": "0.44%",
         "name": "Reward account",
         "note": "Pallet-style account (the name is in the address). No twin. No NPoS pallet in the current runtime."
@@ -201,8 +201,8 @@
       {
         "rank": 8,
         "account": "5EFH3jsZyriLXZ13GtyeBPKoaEUvBYpnpvaMgk9bZ9JPfFvJ",
-        "tft": "960,418.00",
-        "share": "0.37%",
+        "tft": "980,855.14",
+        "share": "0.38%",
         "name": "Twin 2",
         "note": "Freefarm, Silverfarm, LiriaFarm. 120 nodes."
       },
@@ -227,13 +227,13 @@
   "bsc": {
     "title": "BSC top holders",
     "explorer": "https://bscscan.com/address/",
-    "lede": "BEP-20 TFT at 0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf. Contract total supply 51,697,286.14 TFT (7 decimals), read 26 Oct 2026. Each balance below was read from that contract, then sorted. Links open BscScan. One explorer row between the 4.65M wallet and the PancakeSwap pool did not match the contract, so it is left out. This is the wrapped chain, the same TFT frozen in the Stellar BSC vault, not a second supply.",
+    "lede": "BEP-20 TFT at 0x8f0FB159380176D324542b3a7933F0C2Fd0c2bbf. Contract total supply 51,528,508.14 TFT (7 decimals), read 2 Nov 2026. Each balance below was read from that contract, then sorted. Links open BscScan. One explorer row between the 4.65M wallet and the PancakeSwap pool did not match the contract, so it is left out. This is the wrapped chain, the same TFT frozen in the Stellar BSC vault, not a second supply.",
     "rows": [
       {
         "rank": 1,
         "account": "0x66803c0b34b1baccb68ff515f76cd63ba48a2039",
         "tft": "5,723,999.58",
-        "share": "11.07%",
+        "share": "11.11%",
         "name": "No public match",
         "note": ""
       },
@@ -241,14 +241,14 @@
         "rank": 2,
         "account": "0x75dfeaba20eff38d6252578ce1c9d45323380bb3",
         "tft": "4,652,477.00",
-        "share": "9.00%",
+        "share": "9.03%",
         "name": "No public match",
         "note": ""
       },
       {
         "rank": 3,
         "account": "0x4a2dbaa979a3f4cfb8004ea5743faf159dd2665a",
-        "tft": "3,260,529.64",
+        "tft": "3,252,636.02",
         "share": "6.31%",
         "name": "PancakeSwap V2",
         "note": "Pool contract. GoPlus tags this address PancakeV2."
@@ -257,7 +257,7 @@
         "rank": 4,
         "account": "0xa4d540376c1edcc7d659e5b2abaf52adaa3d4013",
         "tft": "2,058,078.00",
-        "share": "3.98%",
+        "share": "3.99%",
         "name": "No public match",
         "note": ""
       },
@@ -265,7 +265,7 @@
         "rank": 5,
         "account": "0xd2938e7c9fe3597f78832ce780feb61945c377d7",
         "tft": "1,891,891.77",
-        "share": "3.66%",
+        "share": "3.67%",
         "name": "Contract",
         "note": "Contract account. No public name."
       },
@@ -273,7 +273,7 @@
         "rank": 6,
         "account": "0x5eac4a9c2fb481e016a526b4fc3aa8205f72ddb9",
         "tft": "1,421,002.25",
-        "share": "2.75%",
+        "share": "2.76%",
         "name": "No public match",
         "note": ""
       },
@@ -281,7 +281,7 @@
         "rank": 7,
         "account": "0x10d376E2358363F8EaD8582f2Cbf061ba638ecBF",
         "tft": "1,314,092.02",
-        "share": "2.54%",
+        "share": "2.55%",
         "name": "No public match",
         "note": ""
       },
@@ -297,7 +297,7 @@
         "rank": 9,
         "account": "0xf9c8aa97a28a7a846b63d8663ebe3dbc05036aea",
         "tft": "761,450.27",
-        "share": "1.47%",
+        "share": "1.48%",
         "name": "No public match",
         "note": ""
       }
@@ -337,11 +337,11 @@
       },
       {
         "title": "TFChain System.Account",
-        "body": "https://tfchain.grid.tf (Tfchain Mainnet, tokenDecimals 7). Live balances are System.Account data.free and data.reserved. Balances.Account is the wrong map and returns zero even for a funded account. At block 25,336,927, 54,471 accounts summed to 257,253,058.34 TFT, matching Balances.TotalIssuance."
+        "body": "https://tfchain.grid.tf (Tfchain Mainnet, tokenDecimals 7). Live balances are System.Account data.free and data.reserved. Balances.Account is the wrong map and returns zero even for a funded account. At block 25,438,848, 54,480 accounts summed to 259,699,434.95 TFT, matching Balances.TotalIssuance."
       },
       {
         "title": "Stellar issuer supply",
-        "body": "Official asset TFT, issuer GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47, from threefold.io stellar.toml. stellar.expert indexed supply was 9828773854052483 stroops, printed as 982,877,385.41 TFT. The TFChain vault balance was read from Horizon. Holder order is stellar.expert, confirmed on Horizon for ranks 2–10."
+        "body": "Official asset TFT, issuer GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47, from threefold.io stellar.toml. stellar.expert indexed supply was 9828773854049656 stroops, printed as 982,877,385.40 TFT. The TFChain vault balance was read from Horizon. Holder order is stellar.expert, confirmed on Horizon for ranks 2–10."
       },
       {
         "title": "Solana vault address was not published",
